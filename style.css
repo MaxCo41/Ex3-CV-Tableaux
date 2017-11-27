@@ -14,6 +14,8 @@ table, tr, td {
   border-collapse: collapse;
   border: 3px black solid;
   padding: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 .resume {
   margin-left: 30px;
@@ -52,9 +54,53 @@ h3 {
   font-size: 20px;
   margin-bottom: 0px;
 }
+h4 {
+  color: blue;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  display: table-cell;
+  vertical-align: top;
+}
 h5 {
   font-size: 12px;
   text-align: left;
   margin-bottom: 0px;
   margin-left: 4px;
+}
+h6 {
+  color: blue;
+  font-size: 15px;
+  vertical-align: top;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+}
+.date {
+  display: table-cell;
+  vertical-align: top;
+  padding-bottom: 0;
+  margin-bottom: 0;
+
+}
+
+td.fct {
+  display: table-cell;
+  vertical-align: top;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+}
+p {
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 15px;
+
 }
