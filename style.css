@@ -110,7 +110,7 @@ p {
 .text {
   padding-bottom: 40px;
 }
-.work, .play, div {
+.work, .play {
   width: 70px;
   height: 70px;
   background-color: blue;
